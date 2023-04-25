@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 
   padding-top: 40px;
-  // padding: 50px 100px;
+  margin-bottom: 100px;
 
   background-color: white;
 
@@ -59,6 +59,7 @@ export const UserStatsItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50px;
 
   padding: 15px 25px;
 
