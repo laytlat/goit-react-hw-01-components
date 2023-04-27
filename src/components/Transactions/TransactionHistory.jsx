@@ -10,7 +10,7 @@ import {
 
 export function TransactionHistory({ items }) {
   return (
-    <TransactionTable className="transaction-history">
+    <TransactionTable>
       <thead>
         <TableHeader>
           <TableHeaderTitle>Type</TableHeaderTitle>
