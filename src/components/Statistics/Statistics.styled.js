@@ -7,6 +7,8 @@ export const Title = styled.h2`
   padding: 30px;
 
   text-align: center;
+
+  background-color: white;
 `;
 
 export const StatisticList = styled.ul`

@@ -61,7 +61,7 @@ export const UserStatsItem = styled.li`
   align-items: center;
   width: 50px;
 
-  padding: 15px 25px;
+  padding: 15px 20px;
 
   :not(:last-child) {
     border-right: 1px solid black;
