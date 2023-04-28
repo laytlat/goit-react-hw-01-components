@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 
+import { FriendListItem } from '../FriendListItem/FriendListItem';
 import {
   ListOfFriend,
   ListOfFriendItem,
@@ -12,13 +13,7 @@ export function FriendsList({ friends }) {
   return (
     <ListOfFriend>
       {friends.map(friend => {
-        return (
-          <ListOfFriendItem key={friend.id}>
-            <IsOnlineStatus isOnline={friend.isOnline}></IsOnlineStatus>
-            <UserAvatar src={friend.avatar} alt="User avatar" width="48" />
-            <Username>{friend.name}</Username>
-          </ListOfFriendItem>
-        );
+        return FriendListItem(friend);
       })}
     </ListOfFriend>
   );
